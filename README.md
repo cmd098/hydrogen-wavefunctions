@@ -10,14 +10,14 @@ probability-density plots
 * NumPy 1.22.1
 
 ---
-### Sections
-* [QM Introduction: Wavefunctions, Atomic orbitals and probability](#qm-introduction-wavefunctions-atomic-orbitals-and-probability)
-* [Quantum Numbers](#quantum-numbers)
+### Content
+* [QM Introduction: wavefunctions, atomic orbitals and probability](#qm-introduction-wavefunctions-atomic-orbitals-and-probability)
+* [Quantum numbers](#quantum-numbers)
 * [Hydrogen wavefunction modeling](#hydrogen-wavefunction-modeling)
 * [Execution and examples](#execution)
 ---
 ## Theory
-### QM Introduction: Wavefunctions, Atomic orbitals and probability
+### QM Introduction: wavefunctions, atomic orbitals and probability
 
 Quantum mechanics use wavefunctions to describe the mathematical 
 relationship between the motion of electrons in atoms and molecules 
@@ -59,7 +59,7 @@ wavefunction.
 
 ---
 
-### Quantum Numbers
+### Quantum numbers
 
 Schrödinger’s approach uses three quantum numbers (n, l, m) 
 to specify any wavefunction. The quantum numbers provide information 
