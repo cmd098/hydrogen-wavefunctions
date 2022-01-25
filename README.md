@@ -10,7 +10,11 @@ probability-density plots
 * NumPy 1.22.1
 
 ---
-
+### Sections
+* [Theory](#theory)
+* [Solution](#solution)
+* [Execution and examples](#execution)
+---
 ## Theory
 ### QM Introduction: Wavefunctions, Atomic orbitals and probability
 
