@@ -90,7 +90,6 @@ In spherical coordinates, the variable r is the radial coordinate,
 θ is the polar angle (relative to the vertical z-axis), 
 and φ is the azimuthal angle (relative to the x-axis)
 
-<br>
 <p align='center'>
   <img src='images/coordinate_system.jpg' width=40% />
 </p>
@@ -125,7 +124,6 @@ products of a Radial Function and a Spherical Harmonic Function.
     <i>Normalized angular function (spherical harmonic function)</i>
 </p>
 
-<br>
 The absolute square of the wavefunction, evaluated at r, θ,
 and φ gives the probability density of finding the electron.
 
@@ -162,8 +160,87 @@ optional arguments:
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
 #### Output plot:
+
 <p align='center'>
   <img src='images/wavefunction(4, 3, 0).png' width=60% />
+</p>
+
+---
+
+
+### Example 2
+#### Input args:
+    $ python wavefunction.py -n 3 -l 2 -m 1 -a0 18
+
+| Flag |          Argument           | Value |  Constraint   |
+|:----:|:---------------------------:|:-----:|:-------------:|
+|  -n  |     Principal QN    (n)     |   3   |    1 <= n     |
+|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
+| -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
+
+#### Output plot:
+
+<p align='center'>
+  <img src='images/wavefunction(3, 2, 1).png' width=60% />
+</p>
+
+---
+
+
+### Example 3
+#### Input args:
+    $ python wavefunction.py -n 4 -l 3 -m 1 -a0 11
+
+| Flag |          Argument           | Value |  Constraint   |
+|:----:|:---------------------------:|:-----:|:-------------:|
+|  -n  |     Principal QN    (n)     |   4   |    1 <= n     |
+|  -l  |    Azimuthal QN     (l)     |   3   | 0 <= l <= n-1 |
+|  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
+| -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
+
+#### Output plot:
+
+<p align='center'>
+  <img src='images/wavefunction(4, 3, 1).png' width=60% />
+</p>
+
+---
+
+### Example 4
+#### Input args:
+    $ python wavefunction.py -n 3 -l 2 -m 2 -a0 18
+
+| Flag |          Argument           | Value |  Constraint   |
+|:----:|:---------------------------:|:-----:|:-------------:|
+|  -n  |     Principal QN    (n)     |   3   |    1 <= n     |
+|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic QN        (m)    |   2   | -l <= m <= l  |
+| -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
+
+#### Output plot:
+
+<p align='center'>
+  <img src='images/wavefunction(3, 2, 2).png' width=60% />
+</p>
+
+---
+
+### Example 5
+#### Input args:
+    $ python wavefunction.py -n 4 -l 2 -m 0 -a0 11
+
+| Flag |          Argument           | Value |  Constraint   |
+|:----:|:---------------------------:|:-----:|:-------------:|
+|  -n  |     Principal QN    (n)     |   4   |    1 <= n     |
+|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
+| -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
+
+#### Output plot:
+
+<p align='center'>
+  <img src='images/wavefunction(4, 2, 0).png' width=60% />
 </p>
 
 ---
