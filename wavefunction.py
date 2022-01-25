@@ -6,10 +6,34 @@
 # GitHub: https://github.com/cmd098
 # ===============================
 
+import argparse
 import math
 import numpy as np
 import scipy.special as sp
 import matplotlib.pyplot as plt
+
+# Command line arguments
+parser = argparse.ArgumentParser(
+    description='Hydrogen wavefunction probability-density by definition '
+                'of quantum numbers n, l, m and bohr radius'
+)
+
+
+def add_argument(flag, description): parser.add_argument(
+    flag, help=description, metavar='', type=int, required=True
+)
+
+
+add_argument('-n', '(n) principal quantum number (constraint: 1 <= n)')
+add_argument('-l', '(l) azimuthal quantum number (constraint: 0 <= l <= n-1)')
+add_argument('-m', '(m) magnetic quantum number (constraint: -l <= m <= l)')
+add_argument('-a0', '(a0) bohr radius (constraint: 1 <= a0)')
+parser.add_argument(
+    '-cm', metavar='', choices=['1', '2', '3', '4'], default='1',
+    help='(color map) optional color scheme |input choices: 1, 2, 3, 4'
+)
+
+args = parser.parse_args()
 
 
 # Rnl(r) normalized radial function
@@ -60,9 +84,12 @@ def plot_wavefunction(n, l, m, a0):
     )
 
     prob_density = np.sqrt(prob_density)
-    plt.imshow(prob_density, cmap='inferno')
+    cmap = {'1': 'inferno', '2': 'gist_heat', '3': 'afmhot', '4': 'gist_gray'}
+    plt.imshow(prob_density, cmap=cmap[args.cm])
     cbar = plt.colorbar()
     cbar.set_ticks([])
     plt.savefig(f'wavefunction{n,l,m}.png')
     plt.show()
 
+
+plot_wavefunction(args.n, args.l, args.m, args.a0)
