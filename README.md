@@ -39,6 +39,7 @@ An atomic orbital is a mathematical function describing
 the wave-like behavior of an electron in an atom. Orbitals are 
 mathematically derived regions of space where the electron can be calculated to be present.
 
+<br>
 <p align='center'>
     <img src='images/wavefunction(3, 2, 1).png' width=50% />
 </p>
@@ -89,7 +90,7 @@ In spherical coordinates, the variable r is the radial coordinate,
 θ is the polar angle (relative to the vertical z-axis), 
 and φ is the azimuthal angle (relative to the x-axis)
 
-
+<br>
 <p align='center'>
   <img src='images/coordinate_system.jpg' width=40% />
 </p>
@@ -124,6 +125,7 @@ products of a Radial Function and a Spherical Harmonic Function.
     <i>Normalized angular function (spherical harmonic function)</i>
 </p>
 
+<br>
 The absolute square of the wavefunction, evaluated at r, θ,
 and φ gives the probability density of finding the electron.
 
