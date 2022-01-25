@@ -23,6 +23,7 @@ location of an electron at a given point in space
 (identified by x, y, and z coordinates) to the amplitude of its 
 wave, which corresponds to its energy.
 
+<br>
 <p align='center'>
   <img src='images/Hydrogen Wave Function.png' width=60% />
 </p>
@@ -101,6 +102,7 @@ and the three quantum numbers n, l, and m.
 The solutions to the hydrogen atom Schrödinger equation are functions that are 
 products of a Radial Function and a Spherical Harmonic Function.
 
+<br>
 <p align='center'>
   <img src='images/normalized_wf.jpg' width=60%/>
 </p>
@@ -157,7 +159,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
-#### Output:
+#### Output plot:
 <p align='center'>
   <img src='images/wavefunction(4, 3, 0).png' width=60% />
 </p>
