@@ -93,7 +93,7 @@ coordinates (x, y, z).
 
 In spherical coordinates, the variable r is the radial coordinate, 
 θ is the polar angle (relative to the vertical z-axis), 
-and φ is the azimuthal angle (relative to the x-axis):
+and φ is the azimuthal angle (relative to the x-axis).
 
 <p align='center'>
   <img src='images/coordinate_system.jpg' width=40% />
