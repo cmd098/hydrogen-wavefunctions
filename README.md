@@ -11,8 +11,9 @@ probability-density plots
 
 ---
 ### Sections
-* [Theory](#theory)
-* [Solution](#solution)
+* [QM Introduction: Wavefunctions, Atomic orbitals and probability](#qm-introduction-wavefunctions-atomic-orbitals-and-probability)
+* [Quantum Numbers](#quantum-numbers)
+* [Hydrogen wavefunction modeling](#hydrogen-wavefunction-modeling)
 * [Execution and examples](#execution)
 ---
 ## Theory
