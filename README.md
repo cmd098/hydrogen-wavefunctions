@@ -164,7 +164,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
-#### Output plot:
+#### Output:
 
 <p align='center'>
   <img src='images/wavefunction(4, 3, 0).png' width=60% />
@@ -184,7 +184,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
 
-#### Output plot:
+#### Output:
 
 <p align='center'>
   <img src='images/wavefunction(3, 2, 1).png' width=60% />
@@ -204,7 +204,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
-#### Output plot:
+#### Output:
 
 <p align='center'>
   <img src='images/wavefunction(4, 3, 1).png' width=60% />
@@ -223,7 +223,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   2   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
 
-#### Output plot:
+#### Output:
 
 <p align='center'>
   <img src='images/wavefunction(3, 2, 2).png' width=60% />
@@ -242,7 +242,7 @@ optional arguments:
 |  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
-#### Output plot:
+#### Output:
 
 <p align='center'>
   <img src='images/wavefunction(4, 2, 0).png' width=60% />
