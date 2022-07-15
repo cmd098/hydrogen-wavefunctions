@@ -170,7 +170,6 @@ optional arguments:
   <img src='images/wavefunction(4, 3, 0).png' width=60% />
 </p>
 
----
 
 
 ### Example 2
@@ -190,7 +189,6 @@ optional arguments:
   <img src='images/wavefunction(3, 2, 1).png' width=60% />
 </p>
 
----
 
 
 ### Example 3
@@ -210,7 +208,7 @@ optional arguments:
   <img src='images/wavefunction(4, 3, 1).png' width=60% />
 </p>
 
----
+
 
 ### Example 4
 #### Input args:
@@ -229,7 +227,7 @@ optional arguments:
   <img src='images/wavefunction(3, 2, 2).png' width=60% />
 </p>
 
----
+
 
 ### Example 5
 #### Input args:
