@@ -159,9 +159,9 @@ optional arguments:
 
 | Flag |          Argument           | Value |  Constraint   |
 |:----:|:---------------------------:|:-----:|:-------------:|
-|  -n  |     Principal QN    (n)     |   4   |    1 <= n     |
-|  -l  |    Azimuthal QN     (l)     |   3   | 0 <= l <= n-1 |
-|  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
+|  -n  |     Principal       (n)     |   4   |    1 <= n     |
+|  -l  |    Azimuthal        (l)     |   3   | 0 <= l <= n-1 |
+|  -m  |   Magnetic           (m)    |   0   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
 #### Output:
@@ -179,9 +179,9 @@ optional arguments:
 
 | Flag |          Argument           | Value |  Constraint   |
 |:----:|:---------------------------:|:-----:|:-------------:|
-|  -n  |     Principal QN    (n)     |   3   |    1 <= n     |
-|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
-|  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
+|  -n  |     Principal       (n)     |   3   |    1 <= n     |
+|  -l  |    Azimuthal        (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic           (m)    |   1   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
 
 #### Output:
@@ -199,9 +199,9 @@ optional arguments:
 
 | Flag |          Argument           | Value |  Constraint   |
 |:----:|:---------------------------:|:-----:|:-------------:|
-|  -n  |     Principal QN    (n)     |   4   |    1 <= n     |
-|  -l  |    Azimuthal QN     (l)     |   3   | 0 <= l <= n-1 |
-|  -m  |   Magnetic QN        (m)    |   1   | -l <= m <= l  |
+|  -n  |     Principal       (n)     |   4   |    1 <= n     |
+|  -l  |    Azimuthal        (l)     |   3   | 0 <= l <= n-1 |
+|  -m  |   Magnetic           (m)    |   1   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
 #### Output:
@@ -218,9 +218,9 @@ optional arguments:
 
 | Flag |          Argument           | Value |  Constraint   |
 |:----:|:---------------------------:|:-----:|:-------------:|
-|  -n  |     Principal QN    (n)     |   3   |    1 <= n     |
-|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
-|  -m  |   Magnetic QN        (m)    |   2   | -l <= m <= l  |
+|  -n  |     Principal       (n)     |   3   |    1 <= n     |
+|  -l  |    Azimuthal        (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic           (m)    |   2   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  18   |    1 <= a0    |
 
 #### Output:
@@ -237,9 +237,9 @@ optional arguments:
 
 | Flag |          Argument           | Value |  Constraint   |
 |:----:|:---------------------------:|:-----:|:-------------:|
-|  -n  |     Principal QN    (n)     |   4   |    1 <= n     |
-|  -l  |    Azimuthal QN     (l)     |   2   | 0 <= l <= n-1 |
-|  -m  |   Magnetic QN        (m)    |   0   | -l <= m <= l  |
+|  -n  |     Principal       (n)     |   4   |    1 <= n     |
+|  -l  |    Azimuthal        (l)     |   2   | 0 <= l <= n-1 |
+|  -m  |   Magnetic           (m)    |   0   | -l <= m <= l  |
 | -a0  | Bohr radius (a<sub>0</sub>) |  11   |    1 <= a0    |
 
 #### Output:
