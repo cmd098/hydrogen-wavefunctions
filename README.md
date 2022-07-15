@@ -138,18 +138,18 @@ and φ gives the probability density of finding the electron.
 
 ```
 $ python wavefunction.py --help   
-usage: wavefunction.py [-h] -n  -l  -m  -a0  [-cm]
+usage: wavefunction.py [-h] -n  -l  -m  -a0
 
-Hydrogen wavefunction probability-density by definition of quantum numbers 
-n, l, m and bohr radius
+Hydrogen wavefunction probability-density plots by definition of quantum 
+numbers n, l, m and bohr radius
 
-optional arguments:
+arguments:
   -h, --help  show this help message and exit
-  -n          (n) principal quantum number (constraint: 1 <= n)
-  -l          (l) azimuthal quantum number (constraint: 0 <= l <= n-1)
-  -m          (m) magnetic quantum number (constraint: -l <= m <= l)
-  -a0         (a0) bohr radius (constraint: 1 <= a0)
-  -cm         (color map) optional color scheme |input choices: 1, 2, 3, 4
+  -n          (n) principal quantum number (1 <= n)
+  -l          (l) azimuthal quantum number (0 <= l <= n-1)
+  -m          (m) magnetic quantum number (-l <= m <= l)
+  -a0         (a0) bohr radius (1 <= a0)
+
 ```
 ---
 
